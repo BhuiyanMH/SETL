@@ -199,6 +199,7 @@ public class PanelSparqlQuery extends JPanel {
 		panelContent.add(scrollPaneQueryResult, BorderLayout.CENTER);
 		
 		textAreaQueryResult = new JTextArea();
+		textAreaQueryResult.setEditable(false);
 		textAreaQueryResult.setFont(new Font("Monospaced", Font.PLAIN, 16));
 		scrollPaneQueryResult.setViewportView(textAreaQueryResult);
 		
